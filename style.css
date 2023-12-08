@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+input{
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+button{
+	border: none;
+	background: #333;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.inutCla{
+	width: 300px;
+	height: 150px;
+	border-radius: 5px;
+	box-shadow: 0 0 3px 1px #999;
+	padding: 10px 25px;
+	text-align: center;
+}
+.inutCla input{
+	box-shadow: 0 0 3px 1px #999;
+	width: 100%;
+	font-size: 22px	;
+	text-align: center;
+}
+.inutCla button{
+	text-align: center;
+	margin: 15px 0;
+	font-size: 22px;
+	cursor: pointer;
+	width: 70%;
+	background: #444;
+	transition: .5s ease;
+}
+header h1{
+	font-size: 35px;
+	color: grey;
+}
+/*Modal*/
+.modal{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background: #f9f9f9;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.id{
+	color: crimson;
+	font-weight: bolder;
+}
+.wind{
+	background: #fff;
+	width: 90%;
+	height: 90vh;
+	border-radius: 5px;
+
+}
+.wind .tap{
+	display: flex;
+	line-height: 70px;
+	border-radius: 5px;
+	background: #999;
+	text-align: center;	
+}
+.wind .tap h1{
+	color: #fff;
+	font-size: 23px;
+	cursor: pointer;
+	display: inline-block;
+	width: 150px;
+	background: #888;
+	padding:12px 15px ;
+	transition: .5s ease;
+}
+.active{
+	background: #333!important;
+}
+.wind .tap h1:hover{
+	background: #333;
+}
+.wrapItem{
+	display: flex;
+	width: 100%;
+}
+.numer{
+	width: 100%;
+	height: 60vh;
+	overflow: auto;
+}
+.numer h1{
+	text-align: center;
+	color: #333;
+	margin: 15px 10px;
+}
+.numer ul{
+	list-style: none;
+}
+.numer ul li{
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 0 0 3px 1px #999;
+	display: inline-block;
+	font-size: 23px;
+	line-height: 40px;
+	margin: 10px;
+	cursor: pointer;
+	width: 100px;
+}
+.checkItem{
+	width: 100%;
+	height: 60vh;
+	overflow: auto;
+}
+.checkItem ul{
+	list-style: none;
+}
+.checkItem ul li{
+	border-radius: 5px;
+	box-shadow: 0 0 3px 1px #999;
+	line-height: 40px;
+	margin: 10px;
+	cursor: pointer;
+	display: inline-block;
+}
+.checkItem ul li input{
+	font-size: 23px;
+	display: inline-block;
+	width: 100px;
+}
+.timer{
+	margin-left: 100px;
+	display: flex;
+}
+.timer button{
+	font-size: 24px;
+	height: 60px;
+	cursor: pointer;
+	margin: 10px;
+}
+.timer h2{
+	margin-left:10px ;
+	font-size: 30px;
+	color: #fff;
+	border-radius: 15px;
+}
+.timer .stop{
+	background: crimson;
+}
+.tapgr{
+	background:#59e748!important ;
+	color: #fff;
+	box-shadow: 0 0 3px 1px #59e748!important;
+}
+.none{
+	display: none;
+}
+
+.checkAll{
+	font-size: 30px;
+	width: 70%;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.green{
+	background: green;
+	color: #fff;
+}
+.red{
+	background: crimson;
+	color: #fff;
+}

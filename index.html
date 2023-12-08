@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mnemonika</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	
+	<header>
+		<div>
+			<h1>Number Generator</h1><br><br>
+			<div class="inutCla">
+			<input type="number" placeholder="Number count" class="inpRes"><br>
+			<button class="inpbtn">Regenerate</button>
+		</div>
+		</div>
+	</header>
+
+	<div class="modal none" id="modal">
+		<div class="wind">
+			<div class="tap">
+				<div class="sat" >
+					<h1 class="active" style="border-top-left-radius: 5px;">Numbers</h1>
+				</div>
+				<div class="check">
+					<h1>Check</h1>
+				</div>
+				<div class="timer">
+					<button class="start">Start</button>
+					<button class="stop none">Stop</button>
+					<h2>00:00</h2>
+				</div>
+			</div>
+			<br>
+			<h1 align="center">Result: <span class="numc">20</span></h1>
+			<br>
+			<div class="wrapItem">
+				<div class="numer">
+					<ul></ul>
+				</div>
+				<br>
+				<div class="checkItem none">
+					<ul></ul>
+					<center>
+						<button class="checkAll">Finish</button><br>
+						<h1 class="res"></h1>
+					</center>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js" async></script>
+</body>
+</html>
